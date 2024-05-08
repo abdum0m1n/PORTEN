@@ -93,6 +93,10 @@ body{
 .ite{
   padding: 24px 10px;
 }
+.activ{
+  color: #FFFFFF;
+  background: #1F1F1F;
+}
 /* nav end */
 /* header start */
 .brand2{
