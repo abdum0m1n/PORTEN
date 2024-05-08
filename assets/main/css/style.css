@@ -287,7 +287,7 @@ body{
 }
 @media screen and (max-width:500px){
   .container1{
-    width: 100% !important;
+    width: 90% !important;
   }
 }
 @media screen and (max-width:570px){
