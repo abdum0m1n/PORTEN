@@ -1,0 +1,338 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* stick-no-bills-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Stick No Bills';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/stick-no-bills-v15-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/stick-no-bills-v15-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+  /* pt-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/pt-sans-v17-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/pt-sans-v17-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+  /* playfair-display-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/playfair-display-v37-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/playfair-display-v37-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/playfair-display-v37-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/playfair-display-v37-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+  /* pt-sans-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/pt-sans-v17-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* nav start */
+.tpp{
+  display: none ;
+}
+.wrb{
+  display: flex;
+  justify-content: flex-end;
+}
+.wr{
+  flex-wrap: wrap;
+}
+.container1{
+  width: 50%;
+  margin: auto;
+}
+.nv{
+  padding: 0;
+}
+.pt{
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 12px;
+}
+.brand{
+  font-family: 'Stick No Bills';
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 36px;
+}
+.item{
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #969696 ;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 26px 10px;
+}
+.item:hover{
+  color: #FFFFFF;
+  background: #1F1F1F;
+}
+.ite{
+  padding: 24px 10px;
+}
+/* nav end */
+/* header start */
+.brand2{
+  font-family: 'Stick No Bills';
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 64px;
+  border-bottom: 2px solid #FFFFFF;
+}
+.header-h3{
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 22px;
+  text-align: center;
+}
+.header-p{
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+.heading{
+  padding: 90px 65px;
+  border: #FFFFFF solid 4px;
+  margin-bottom: 80px;
+}
+.container2{
+  width: 35%;
+  margin: auto;
+}
+/* header end */
+/* main1 start */
+.main{
+  display: flex;
+}
+.card-img1{
+  background: #191B1C;
+  padding: 55px 22px;
+  width: 100%;
+  height: auto;
+}
+.main-child1{
+  background: #000000;
+  padding-right: 0;
+  width: 50%;
+}
+.container3{
+  width: 90%;
+  margin: auto;
+}
+.wrap-h3{
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.wrap-p{
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.head{
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.main-child1-img{
+  width: 50%;
+}
+.main-child2{
+  padding-right:0;
+  padding-left: 0;
+  width: 50%;
+}
+.container-h{
+  height: 90%;
+}
+/* main1 end */
+/* main2 start */
+.container4{
+  width: 60%;
+  margin: auto;
+}
+.main2{
+  display: flex;
+}
+.main2-child2{
+  width: 50%;
+}
+.main2-child1{
+  width: 50%;
+}
+.main2-h1{
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.bor{
+  width: 10%;
+  height: 1px;
+  background: #FFFFFF;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.main2-h4{
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: solid #FFFFFF 1px;
+}
+/* main2 end */
+/* footer start */
+.p2{
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.f-h3{
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.f-a{
+  text-decoration: none;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 14px;
+  background: #0F0F0F;
+  margin: 10px 30px 10px 0;
+}
+.te{
+  text-align: left !important;
+}
+.f-btn{
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 14px;
+  background: #0F0F0F;
+  border: none;
+}
+.input{
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  color: #FFFFFF;
+}
+/* footer end */
+.main-child5{
+  width: 100%;
+  background: #000000;
+}
+.copyright{
+  background: #0F0F0F;
+}
+.c-1{
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+.c-2{
+  font-family: 'PT Sans';
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+@media screen and (max-width:768px) {
+  .footer{
+    background: #0F0F0F !important;
+  }
+}
+@media screen and (max-width:700px) {
+  .wrapper{
+    display:  block !important;
+  }
+}
+@media screen and (max-width:500px){
+  .container1{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width:570px){
+  .tpp{
+    display: flex ;
+    justify-content: center;
+
+  }
+  .tp{
+    display: none;
+  }
+  .container4{
+    width: 100%;
+  }
+  .container2{
+    width: 100%;
+  }
+}
+/* 992px */
+@media screen and (max-width:992px){
+
+  .container1{
+    width: 80%;
+  }
+  .main{
+    display: block;
+  }
+  .main-child1{
+    width: 100% !important;
+  }
+  .main-child2{
+    height: 730px;
+    width: 100% !important;
+  } 
+  .main2-child1{
+    width: 100% !important;
+  }
+  .main2-child2{
+    width: 100% !important;
+  }
+  .main2{
+    display: block;
+  }
+}
+@media screen and (max-width:400px){
+  .heading{
+    padding: 60px 50px;
+  }
+}
