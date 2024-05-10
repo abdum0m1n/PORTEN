@@ -208,11 +208,15 @@ body{
   margin-bottom: 30px;
 }
 .main2-h4{
+  text-decoration: none;
   font-family: 'PT Sans';
   font-weight: 400;
   color: #FFFFFF;
   font-size: 18px;
   border: solid #FFFFFF 1px;
+}
+.main2-h4:hover{
+  background: #1F1F1F;
 }
 /* main2 end */
 /* footer start */
@@ -309,6 +313,7 @@ body{
 /* 992px */
 @media screen and (max-width:992px){
 
+
   .container1{
     width: 80%;
   }
@@ -319,8 +324,9 @@ body{
     width: 100% !important;
   }
   .main-child2{
-    height: 730px;
+    height: 300px;
     width: 100% !important;
+    background:   #000000 !important;
   } 
   .main2-child1{
     width: 100% !important;
