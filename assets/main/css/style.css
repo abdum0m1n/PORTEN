@@ -3,6 +3,22 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+/* pt-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* pt-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/pt-sans-v17-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 /* stick-no-bills-700 - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -12,15 +28,7 @@ body{
     src: url('../fonts/stick-no-bills-v15-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
          url('../fonts/stick-no-bills-v15-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }
-  /* pt-sans-regular - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/pt-sans-v17-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('../fonts/pt-sans-v17-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  }
+
   /* playfair-display-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -39,13 +47,7 @@ body{
          url('../fonts/playfair-display-v37-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }
   /* pt-sans-700 - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/pt-sans-v17-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
+
 /* nav start */
 .tpp{
   display: none ;
@@ -79,6 +81,7 @@ body{
   font-size: 36px;
 }
 .item{
+  text-transform: uppercase;
   font-family: 'PT Sans';
   font-weight: 400;
   color: #969696 ;
@@ -104,6 +107,7 @@ body{
   border-bottom: 2px solid #FFFFFF;
 }
 .header-h3{
+  text-transform: uppercase;
   font-family: 'PT Sans';
   font-weight: 400;
   color: #FFFFFF;
@@ -142,7 +146,7 @@ body{
 .main-child1{
   background: #000000;
   padding-right: 0;
-  width: 50%;
+  width: 60%;
 }
 .container3{
   width: 90%;
@@ -173,7 +177,7 @@ body{
 .main-child2{
   padding-right:0;
   padding-left: 0;
-  width: 50%;
+  width: 40%;
 }
 .container-h{
   height: 90%;
