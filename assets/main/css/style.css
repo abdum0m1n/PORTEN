@@ -221,7 +221,8 @@ body{
   border: solid #FFFFFF 1px;
 }
 .main2-h4:hover{
-  background: #1F1F1F;
+  color: #0F0F0F;
+  background: #FFFFFF;
 }
 /* main2 end */
 /* footer start */
