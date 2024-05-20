@@ -138,6 +138,7 @@ body{
   display: flex;
 }
 .card-img1{
+  margin-bottom: 20px;
   background: #191B1C;
   padding: 55px 22px;
   width: 100%;
@@ -330,7 +331,6 @@ body{
   .main-child2{
     height: 300px;
     width: 100% !important;
-    background:   #000000 !important;
   } 
   .main2-child1{
     width: 100% !important;
