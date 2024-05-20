@@ -265,6 +265,12 @@ body{
   color: #FFFFFF;
 }
 /* footer end */
+.input::placeholder{
+  color: #FFFFFF;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #FFFFFF;
+}
 .main-child5{
   width: 100%;
   background: #000000;
